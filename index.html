@@ -1,181 +1,483 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Karne Samhitha Reddy - Cloud & DevOps student.">
-  <title>Karne Samhitha Reddy | Cloud & DevOps Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="navbar">
-    <a class="logo" href="#home">KSR<span>.</span></a>
-    <button class="menu-btn" aria-label="Open menu">☰</button>
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <main>
-    <section id="home" class="hero section">
-      <div class="hero-text reveal">
-        <p class="eyebrow">CLOUD • DEVOPS • SECURITY</p>
-        <h1>Hi, I'm <span>Samhitha Reddy</span></h1>
-        <h2>Cloud & DevOps Enthusiast</h2>
-        <p class="intro">
-          BSc Cloud Computing student at Loyola Academy, passionate about cloud
-          infrastructure, DevOps automation and cloud security.
+    <title>Karne Samhitha Reddy | Cloud & DevOps</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                Samhitha Reddy
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="profile-image">
+                <img src="profile.png" alt="Karne Samhitha Reddy">
+            </div>
+
+            <div class="hero-text">
+
+                <p class="welcome">
+                    Hi, I'm
+                </p>
+
+                <h1>
+                    Karne Samhitha Reddy
+                </h1>
+
+                <h2>
+                    Cloud & DevOps Enthusiast
+                </h2>
+
+                <p>
+                    I'm a BSc Cloud Computing student passionate about
+                    Cloud Computing, DevOps and Cloud Security.
+                    I'm building practical skills in AWS, Linux,
+                    Networking, Docker, Terraform and CI/CD.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn">
+                        View My Work
+                    </a>
+
+                    <button id="listenBtn" class="btn secondary-btn">
+                        ▶ Listen to My Intro
+                    </button>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="mailto:karnesamhithareddy@gmail.com">
+                        Email
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/karne-samhitha-reddy-014a94422"
+                       target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/samhitha-karne"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <div class="container">
+
+            <h2>About Me</h2>
+
+            <p>
+                I'm currently pursuing BSc Cloud Computing at
+                Loyola Academy. I'm interested in building secure,
+                scalable and reliable cloud infrastructure.
+            </p>
+
+            <p>
+                My current learning journey focuses on AWS,
+                Linux, Networking, Cloud Security, Docker,
+                Terraform and CI/CD.
+            </p>
+
+            <p>
+                My goal is to grow into a skilled Cloud and
+                DevOps professional and gain practical industry
+                experience through projects and internships.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Video Section -->
+    <section id="video" class="section video-section">
+
+        <div class="container">
+
+            <h2>Meet Me</h2>
+
+            <p>
+                Here's a short introduction about me.
+            </p>
+
+            <div class="video-container">
+
+                <iframe
+                    src="https://app.heygen.com/embeds/05fac6aadba143c9af4e4690c174370a"
+                    title="My Introduction Video"
+                    frameborder="0"
+                    allow="encrypted-media; fullscreen;"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <div class="container">
+
+            <h2>Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>AWS</h3>
+                    <p>Cloud infrastructure and AWS services</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Linux</h3>
+                    <p>Linux administration and command line</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Networking</h3>
+                    <p>Networking fundamentals and cloud networking</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Docker</h3>
+                    <p>Containerization and Docker fundamentals</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Terraform</h3>
+                    <p>Infrastructure as Code</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CI/CD</h3>
+                    <p>GitHub Actions and deployment automation</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Cloud Security</h3>
+                    <p>IAM, KMS, CloudTrail and security fundamentals</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Python programming fundamentals</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <div class="container">
+
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <h3>Cloud Architecture</h3>
+
+                    <p>
+                        Designed a basic cloud architecture using
+                        AWS services with focus on scalability,
+                        availability and security.
+                    </p>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>IAM Security Project</h3>
+
+                    <p>
+                        Worked with AWS Identity and Access Management
+                        concepts including users, groups, roles and
+                        permissions.
+                    </p>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>EC2 Web Server</h3>
+
+                    <p>
+                        Launched an EC2 instance and configured a
+                        web server to understand cloud-based
+                        application hosting.
+                    </p>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h3>Attendance Tracker</h3>
+
+                    <p>
+                        Developing an attendance tracking website
+                        as an academic project with a focus on
+                        simple and user-friendly design.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+
+        <div class="container">
+
+            <h2>Certifications & Learning</h2>
+
+            <div class="certifications-grid">
+
+                <div class="cert-card">
+                    <h3>AWS Cloud Practitioner</h3>
+                    <p>Cloud fundamentals and AWS services</p>
+                </div>
+
+                <div class="cert-card">
+                    <h3>Microsoft Azure AZ-900</h3>
+                    <p>Microsoft Azure fundamentals</p>
+                </div>
+
+                <div class="cert-card">
+                    <h3>Linux Certification</h3>
+                    <p>Linux fundamentals and administration</p>
+                </div>
+
+                <div class="cert-card">
+                    <h3>NPTEL Edge Computing</h3>
+                    <p>Edge computing concepts and technologies</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+
+        <div class="container">
+
+            <h2>Education</h2>
+
+            <div class="education-card">
+
+                <h3>BSc Cloud Computing</h3>
+
+                <p>
+                    Loyola Academy
+                </p>
+
+                <p>
+                    2024 – 2027
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+
+        <div class="container">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                I'm open to learning opportunities, internships
+                and projects related to Cloud, DevOps and Cloud Security.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:karnesamhithareddy@gmail.com"
+                   class="btn">
+                    Email Me
+                </a>
+
+                <a href="https://www.linkedin.com/in/karne-samhitha-reddy-014a94422"
+                   target="_blank"
+                   class="btn">
+                    LinkedIn
+                </a>
+
+                <a href="https://github.com/samhitha-karne"
+                   target="_blank"
+                   class="btn">
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Karne Samhitha Reddy. All Rights Reserved.
         </p>
 
-        <div class="buttons">
-          <a class="btn primary" href="#projects">View My Work</a>
-          <button class="btn secondary" id="speakBtn">▶ Listen to My Intro</button>
-        </div>
+        <p>
+            Cloud & DevOps Enthusiast
+        </p>
 
-        <div class="quick-links">
-          <a href="mailto:karnesamhithareddy@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/karne-samhitha-reddy-014a94422" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="https://github.com/samhitha-karne" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </div>
+    </footer>
 
-      <div class="hero-photo reveal">
-        <div class="photo-glow"></div>
-        <img src="assets/profile.png" alt="Professional portrait of Karne Samhitha Reddy">
-        <div class="status-card"><span></span> Open to learning & opportunities</div>
-      </div>
-    </section>
 
-    <section id="about" class="section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">ABOUT ME</p>
-        <h2>Building my foundation in the cloud.</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-card reveal">
-          <p>
-            I'm a Cloud Computing student who enjoys understanding how modern
-            applications are deployed, secured and managed in the cloud.
-            I'm currently developing practical skills across AWS, Linux,
-            networking, containers, infrastructure as code and CI/CD.
-          </p>
-          <p>
-            My goal is to grow into a Cloud/DevOps professional who can build
-            reliable, secure and scalable infrastructure.
-          </p>
-        </div>
-        <div class="facts reveal">
-          <div><strong>2027</strong><span>Expected Graduation</span></div>
-          <div><strong>AWS</strong><span>Cloud Platform Focus</span></div>
-          <div><strong>DevOps</strong><span>Career Interest</span></div>
-          <div><strong>Security</strong><span>Core Interest</span></div>
-        </div>
-      </div>
-    </section>
+    <!-- Text-to-Speech -->
+    <script>
 
-    <section id="skills" class="section alt">
-      <div class="section-heading reveal">
-        <p class="eyebrow">TECHNICAL SKILLS</p>
-        <h2>Tools I am learning and practicing.</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-card reveal"><span>☁️</span><h3>Cloud</h3><p>AWS Core & Advanced, EC2, IAM, CloudWatch</p></div>
-        <div class="skill-card reveal"><span>🐧</span><h3>Linux</h3><p>CLI, permissions, SSH, services, logs and system administration</p></div>
-        <div class="skill-card reveal"><span>🌐</span><h3>Networking</h3><p>Networking fundamentals, TCP/IP, DNS and cloud networking concepts</p></div>
-        <div class="skill-card reveal"><span>🐳</span><h3>Containers</h3><p>Docker fundamentals and containerized application workflows</p></div>
-        <div class="skill-card reveal"><span>🏗️</span><h3>Infrastructure as Code</h3><p>Terraform fundamentals for repeatable infrastructure</p></div>
-        <div class="skill-card reveal"><span>🔄</span><h3>CI/CD</h3><p>Git, GitHub and GitHub Actions basics</p></div>
-        <div class="skill-card reveal"><span>🔐</span><h3>Cloud Security</h3><p>IAM, KMS, CloudTrail and AWS Config concepts</p></div>
-        <div class="skill-card reveal"><span>🐍</span><h3>Python</h3><p>Programming fundamentals and automation basics</p></div>
-      </div>
-    </section>
+        const introText =
+            "Hi, I'm Karne Samhitha Reddy. " +
+            "I'm currently pursuing BSc Cloud Computing at Loyola Academy. " +
+            "I'm interested in Cloud Computing, DevOps and Cloud Security. " +
+            "I'm developing practical skills in AWS, Linux, networking, Docker, Terraform and CI CD. " +
+            "My goal is to grow into a skilled cloud and DevOps professional.";
 
-    <section id="projects" class="section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">PROJECTS</p>
-        <h2>Practical work & learning projects.</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <div class="project-number">01</div>
-          <h3>Cloud Architecture</h3>
-          <p>Designed a basic cloud architecture to understand how application components can be organized for scalability and reliability.</p>
-          <div class="tags"><span>AWS</span><span>Architecture</span><span>Cloud</span></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-number">02</div>
-          <h3>IAM Security Project</h3>
-          <p>Explored identity and access management concepts, permissions and secure access patterns in AWS.</p>
-          <div class="tags"><span>IAM</span><span>Security</span><span>AWS</span></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-number">03</div>
-          <h3>EC2 Web Server</h3>
-          <p>Practiced launching an EC2 instance and setting up a web server to understand basic cloud deployment.</p>
-          <div class="tags"><span>EC2</span><span>Linux</span><span>Web Server</span></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-number">04</div>
-          <h3>Attendance Tracker</h3>
-          <p>A planned academic web project focused on tracking attendance through a simple, user-friendly interface.</p>
-          <div class="tags"><span>Web</span><span>Database</span><span>Academic</span></div>
-        </article>
-      </div>
-    </section>
+        let availableVoices = [];
 
-    <section id="certifications" class="section alt">
-      <div class="section-heading reveal">
-        <p class="eyebrow">CERTIFICATIONS</p>
-        <h2>Credentials & learning milestones.</h2>
-      </div>
-      <div class="cert-grid">
-        <div class="cert-card reveal"><div class="cert-icon">AWS</div><h3>AWS Cloud Practitioner</h3><p>Cloud fundamentals and AWS services.</p></div>
-        <div class="cert-card reveal"><div class="cert-icon">AZ</div><h3>Microsoft Azure AZ-900</h3><p>Azure cloud fundamentals.</p></div>
-        <div class="cert-card reveal"><div class="cert-icon">LIN</div><h3>Linux Certification</h3><p>Linux fundamentals and administration.</p></div>
-        <div class="cert-card reveal"><div class="cert-icon">NPT</div><h3>NPTEL Edge Computing</h3><p>IIT Patna course in edge computing.</p></div>
-      </div>
-    </section>
 
-    <section id="education" class="section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">EDUCATION</p>
-        <h2>Academic journey.</h2>
-      </div>
-      <div class="timeline reveal">
-        <div class="timeline-item">
-          <span class="timeline-dot"></span>
-          <div><p class="date">2024 — 2027</p><h3>BSc Cloud Computing</h3><p>Loyola Academy</p><small>Focused on cloud computing, software, networking and emerging technologies.</small></div>
-        </div>
-      </div>
-    </section>
+        function loadVoices() {
 
-    <section id="contact" class="section contact-section">
-      <div class="contact-box reveal">
-        <p class="eyebrow">LET'S CONNECT</p>
-        <h2>Have an opportunity or a project idea?</h2>
-        <p>I'd love to connect, learn and grow through meaningful opportunities.</p>
-        <div class="buttons">
-          <a class="btn primary" href="mailto:karnesamhithareddy@gmail.com">Email Me</a>
-          <a class="btn secondary" href="https://www.linkedin.com/in/karne-samhitha-reddy-014a94422" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-    </section>
-  </main>
+            availableVoices =
+                window.speechSynthesis.getVoices();
 
-  <footer>
-    <p>© 2026 Karne Samhitha Reddy • Cloud & DevOps Portfolio</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
+        }
 
-  <script src="script.js"></script>
+
+        loadVoices();
+
+
+        window.speechSynthesis.onvoiceschanged =
+            loadVoices;
+
+
+        document
+            .getElementById("listenBtn")
+            .addEventListener("click", function () {
+
+                window.speechSynthesis.cancel();
+
+                const speech =
+                    new SpeechSynthesisUtterance(introText);
+
+
+                /*
+                 * Try to select a female voice.
+                 * Available voices depend on the
+                 * browser and operating system.
+                 */
+
+                const femaleVoice =
+                    availableVoices.find(function (voice) {
+
+                        return /female|heera|zira|samantha|google uk english female|google us english/i
+                            .test(voice.name);
+
+                    });
+
+
+                if (femaleVoice) {
+
+                    speech.voice =
+                        femaleVoice;
+
+                    speech.lang =
+                        femaleVoice.lang;
+
+                } else {
+
+                    speech.lang =
+                        "en-IN";
+
+                }
+
+
+                speech.rate =
+                    0.95;
+
+                speech.pitch =
+                    1;
+
+
+                window.speechSynthesis.speak(
+                    speech
+                );
+
+            });
+
+    </script>
+
 </body>
 </html>
